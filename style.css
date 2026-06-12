@@ -8,14 +8,12 @@ body {
     animation: bgMove 8s ease infinite;
     color: #333;
 }
-
 /* พื้นหลังเคลื่อนไหว */
 @keyframes bgMove {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
-
 header {
     background: linear-gradient(90deg, #ff69b4, #ff1493);
     color: white;
@@ -23,15 +21,12 @@ header {
     text-align: center;
     animation: fadeDown 1s ease;
 }
-
 header h1 {
     margin: 0;
 }
-
 header p {
     margin: 5px 0 0;
 }
-
 section {
     padding: 20px;
     margin: 20px auto;
@@ -42,30 +37,24 @@ section {
     animation: fadeUp 1s ease;
     transition: all 0.3s ease;
 }
-
 section:hover {
     transform: scale(1.03);
     box-shadow: 0 0 30px rgba(255, 20, 147, 0.6);
 }
-
 h2 {
     color: #ff1493;
 }
-
 .project {
     margin-bottom: 20px;
 }
-
 .project h3 {
     margin: 0 0 10px;
     color: #ff69b4;
 }
-
 ul {
     list-style-type: square;
     padding-left: 20px;
 }
-
 footer {
     text-align: center;
     padding: 10px 0;
@@ -73,7 +62,6 @@ footer {
     color: white;
     margin-top: 20px;
 }
-
 /* Animation */
 @keyframes fadeUp {
     from {
