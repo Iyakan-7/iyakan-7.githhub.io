@@ -84,3 +84,17 @@ footer {
         transform: translateY(0);
     }
 }
+.info-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* สีน้ำเงิน */
+    color: white;
+    text-decoration: none; /* ลบเส้นใต้ */
+    border-radius: 5px; /* ทำมุมมน */
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.info-link:hover {
+    background-color: #0056b3; /* สีจะเข้มขึ้นเมื่อเอาเมาส์ไปชี้ */
+}
